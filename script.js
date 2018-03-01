@@ -33,4 +33,9 @@ $(document).ready(function(){
 
 
 
+var myVar = 110;
+
+if (myVar > 0) {
+	console.log("Website created by Madison Wolfe!");
+}
 	
