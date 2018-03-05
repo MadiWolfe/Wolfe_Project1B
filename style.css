@@ -1,4 +1,10 @@
 @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
+body {
+  width: 90%;
+  margin: auto;
+  min-width: 600px;
+  max-width: 2000px; }
+
 .trs {
   color: indianred; }
 
@@ -62,7 +68,7 @@ header {
   box-shadow: 10px 10px #888888;
   margin-left: 145px;
   margin-right: 400px;
-  margin-bottom: 500px;
+  margin-bottom: 100px;
   margin-top: 650px;
   width: 1000px; }
   .bio-bg .bio-head {
@@ -101,6 +107,7 @@ header {
   left: 0;
   height: 100vh;
   width: 100vw;
+  margin-bottom: 100px;
   background-image: url(media/comfy.jpg);
   background-repeat: no-repeat;
   background-position: top;
@@ -137,7 +144,7 @@ header {
   box-shadow: 10px 10px #888888;
   margin-left: 137px;
   margin-right: 400px;
-  margin-bottom: 500px;
+  margin-bottom: 100px;
   margin-top: 650px;
   width: 1000px;
   padding: 25px; }
@@ -167,7 +174,7 @@ header {
   box-shadow: 10px 10px #888888;
   margin-left: 145px;
   margin-right: 400px;
-  margin-bottom: 500px;
+  margin-bottom: 100px;
   margin-top: 650px;
   width: 1000px; }
   .Music .Music-vid {
@@ -234,7 +241,7 @@ header {
   box-shadow: 10px 10px #888888;
   margin-left: 137px;
   margin-right: 400px;
-  margin-bottom: 500px;
+  margin-bottom: 100px;
   margin-top: 650px;
   width: 1000px;
   padding: 25px; }
@@ -353,10 +360,13 @@ header {
 #overlay-music:hover {
   cursor: pointer; }
 
-a, a:hover {
+a,
+a:hover {
   text-decoration: none; }
 
-.socialbtns, .socialbtns ul, .socialbtns li {
+.socialbtns,
+.socialbtns ul,
+.socialbtns li {
   margin: 0;
   padding: 5px; }
 
@@ -393,8 +403,5 @@ a, a:hover {
   -moz-transform: rotate(360deg);
   -webkit-transform: rotate(360deg);
   -o-transform: rotate(360deg); }
-
-.store-foot {
-  margin-top: 1500px; }
 
 /*# sourceMappingURL=style.css.map */
